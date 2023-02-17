@@ -3,7 +3,7 @@ This is second project from module 2
 
 # Description
 
-A portfolio of my me
+A portfolio of me for potential employers
 
 Image below for reference
 
