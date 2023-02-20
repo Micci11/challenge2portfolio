@@ -1,11 +1,4 @@
 /* GENERAL STYLE*/
-
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
 body{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
@@ -48,11 +41,6 @@ img{
     height: 200px;
     width: 100%;
 }
-h1{
-    margin-left: 25px;
-    display: inline-block;
-    line-height: 85px;
-}
 p{
     width: 75%;
     padding: 25px;
@@ -63,91 +51,65 @@ p{
     /* RIGHT SIDE */
 
 .surfreport {
-    margin-right: 25px;
     padding: 25px;
     clear: both;
 }
-.ledwall .calculator{
-    margin-right: 25px;
+.calculator {
+    margin-right: 50px;
     padding: 25px;
     display: inline-block;
 }
-.puzzel .runbuddy {
-    margin-left: 25px;
+.ledwall {
+    margin-right: 50px;
+    padding: 25px;
+    display: inline-block;
+}
+ .runbuddy {
+    margin-right: 50px;
     padding: 25px;
     display: inline-block;
 
-}    
-
+}   
+.puzzel {
+    margin-right: 50px;
+    padding: 25px;
+    display: inline-block; 
+}
 .projects {
     background-color: #330099;
     padding: 25px;
-    float: right;
     width: 75%;
     height: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin-bottom: 32px;
     color: #ffffff;
 }
-.ledwall .calculator h3 {
-    margin-bottom: 10px;
-    text-align: left;
-    display: inline-block;
-}
-.surfreport h3 {
-    margin-bottom: 10px;
-    text-align: left;
-}
-
-.puzzel .runbuddy h3 {
-    margin-bottom: 10px;
-    text-align: right;
-    display: inline-block;
-}
-
-.surfreport h5 {
-    margin-bottom: 10px;
-    text-align: left;
-}
-.ledwall .calculator h5 {
-    margin-bottom: 10px;
-    text-align: left;
-    display: inline-block;
-}
-
-.puzzel .runbuddy h5 {
-    margin-bottom: 10px;
-    text-align: right;
-    display: inline-block;
-}
-
 .surfreport img {
     display: block;
-    margin: 10px auto;
-    max-width: 1000px;
+    width: 1100px;
 }
 
 .ledwall img {
     display: inline-block;
     margin: 10px auto;
-    max-width: 300px;
+    width: 500px;
 }
 
 .calculator img {
     display: inline-block;
     margin: 10px auto;
-    max-width: 300px;
+    width: 500px;
 }
 
 .puzzel img {
     display: inline-block;
     margin: 10px auto;
-    max-width: 300px;
+    width: 500px;
 }
 .runbuddy img {
     display: inline-block;
     margin: 10px auto;
-    max-width: 300px;
+    width: 500px;
 }
 
 @media screen and (max-width: 768px) {
@@ -174,21 +136,6 @@ p{
 /* FOOTER */
 
 
-footer h1{
-    float: left;
-    margin-right: 20px;
-    display: inline-block;
-    line-height: 85px;
-}
-footer h3{
-    display: inline-block;
-    line-height: 85px;
-    margin: 0 5px;
-    font-size: 18px;
-    padding: 8px 14px;
-    border-radius: 3px;
-    text-transform: uppercase;
-}
 
 
 
