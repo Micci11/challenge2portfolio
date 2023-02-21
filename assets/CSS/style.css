@@ -19,9 +19,10 @@ label.logo{
 }
 nav ul{
     float: right;
-    margin-right: 20px;
+    margin-right: 20px; 
 }
 nav li{
+    
     display: inline-block;
     line-height: 85px;
     margin: 0 5px;
@@ -38,7 +39,7 @@ nav ul li a{
     /* LEFT SIDE */
 
 img{
-    height: 200px;
+    height: 300px;
     width: 100%;
 }
 p{
@@ -122,18 +123,26 @@ p{
     .sidebar {
       order: 2;
     }
-    /* Change the header background */
-    header {
-      background: #e2a5ee;
-    }
-    /* Change the navbar and footer background */
-    nav,
-    footer {
-      background-color: #39006e;
-    }
   }
 
 /* FOOTER */
+.contactme ul{
+    text-align: center;
+    margin-right: 20px;
+}
+.contactme li{
+    
+    display: inline-block;
+    line-height: 85px;
+    margin: 0 5px;
+}
+.contactme ul li a{
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    padding: 8px 14px;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
 
 
 
