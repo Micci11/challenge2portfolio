@@ -45,7 +45,9 @@ nav ul li a{
 
 /* MAIN */
     /* LEFT SIDE */
-
+h1 {
+    padding-left: 150px;
+}
 img{
     height: 300px;
     width: 100%;
@@ -53,7 +55,13 @@ img{
 .vert {
     border-left: 6px solid#330099;
     height: 150px;
+    margin-left: 20%;
   }
+  /* .vert2 { */
+    /* border-left: 6px solid#330099; */
+    /* height: 150px; */
+    /* margin-left: 20%; */
+  /* } */
 p{
     width: 75%;
     padding: 25px;
@@ -73,17 +81,59 @@ p{
     height: 250px;
     margin-bottom: 10px;
 }
+.surfreport:hover {
+    opacity:0.9 ;
+}
+.ledwall:hover {
+    opacity:0.7 ;
+}
+.calculator:hover {
+    opacity:0.8 ;
+}
+.puzzel:hover {
+    opacity:0.8 ;
+}
+.runbuddy:hover {
+    opacity:0.7 ;
+}
 .flexchild {
     display: flex;
     justify-content: space-between;
+    margin-top: 10px;
 }
+
 .surfreport div {
     display: inline-block;
     position: relative;
     top: 75%;
     background-color: red;
 }
-.calculator {
+.ledwall div {
+    display: inline-block;
+    position: relative;
+    top: 65%;
+    background-color: red;
+}
+.calculator div {
+    display: inline-block;
+    position: relative;
+    top: 65%;
+    background-color: red;
+}
+.puzzel div {
+    display: inline-block;
+    position: relative;
+    top: 65%;
+    background-color: red;
+}
+.runbuddy div {
+    display: inline-block;
+    position: relative;
+    top: 65%;
+    background-color: red;
+}
+
+.ledwall {
     /* margin-right: 50px; */
     /* padding: 25px; */
     /* display: inline-block; */
@@ -92,7 +142,7 @@ p{
     height: 175px;
     flex:0 0 49%;
 }
-.ledwall {
+.calculator {
     /* margin-right: 50px; */
     /* padding: 25px; */
     /* display: inline-block; */
@@ -103,18 +153,24 @@ p{
 }
 
  .runbuddy {
-    margin-right: 50px;
-    padding: 25px;
-    display: inline-block;
-
+    /* margin-right: 50px; */
+    /* padding: 25px; */
+    /* display: inline-block; */
+    background-image: url("../images/htmlcss.jpg");
+    background-size: cover;
+    height: 175px;
+    flex:0 0 49%;
 }   
 .puzzel {
-    margin-right: 50px;
-    padding: 25px;
-    display: inline-block; 
+    /* margin-right: 50px; */
+    /* padding: 25px; */
+    /* display: inline-block;  */
+    background-image: url("../images/pastel.jpg");
+    background-size: cover;
+    height: 175px;
+    flex:0 0 49%;
 }
 .projects {
-    background-color: #330099;
     padding: 25px;
     width: 75%;
     height: 100%;
@@ -122,6 +178,8 @@ p{
     margin-bottom: 32px;
     color: #ffffff;
     float: right;
+    border-left: red 6px solid;
+    padding-left: 50px;
 }
 .projects section{
     border: red 3px solid ;
