@@ -20,7 +20,7 @@ My portfolio is a website designed to showcase my skills and experience as a sof
 # Installation
 
 To install this project, simply clone this repository to your local machine:
-git clone https://github.com/your-username/challenge2portfolio
+git clone https://github.com/your-username/myportfolio
 
 # Usage
 
