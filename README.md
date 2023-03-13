@@ -1,28 +1,35 @@
-# challenge2portfolio
-This is second project from module 2
+#  My Portfolio
 
 # Description
 
-A portfolio of me for potential employers
+My portfolio is a website designed to showcase my skills and experience as a software developer. It includes an "About Me" section, a list of my skills, my projects, and my contact information.
 
-Image below for reference
+# Technologies Used
 
+- HTML
+- CSS
+- JavaScript
 
+# Features
 
-View URL at 
+- Responsive design for mobile and desktop devices
+- Clean and modern layout
+- Easy navigation to different sections of the website
+- Filterable projects section
 
 # Installation
 
-N/A
+To install this project, simply clone this repository to your local machine:
+git clone https://github.com/your-username/challenge2portfolio
 
 # Usage
 
-N/A
-
-# Credits
-
-N/A
+To use this project, simply open the index.html file in your web browser.
 
 # License
 
-Please refer to the LICENSE in the repo.
+This project is licensed under the MIT License.
+
+# Contact
+
+If you have any questions or comments about this project, please feel free to contact me at miccibenner@gmail.com
